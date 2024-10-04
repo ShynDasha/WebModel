@@ -22,7 +22,7 @@ header {
     align-items: center;
     background-color: #FDFAF5;
     padding: 25px 20px;
-    border: 0.5px solid black;
+    border: 1px solid black;
 }
 
 .logo img {
@@ -55,10 +55,59 @@ nav .active {
     height: 15px; /* Висота */
     padding: 19px; /* Відступи всередині поля */
     border-radius: 15px; /* Округлення кутів */
-    border: 0.5px solid black; /* Рамка навколо поля */
+    border: 1px solid black; /* Рамка навколо поля */
     background-color: #FDFAF5;
     margin-right: 30px; 
-
 }
 
+.custom-rectangle {
+    width: 1776px; /* Ширина прямокутника */
+    height: 362px; /* Висота прямокутника */
+    background-color:#FDFAF5; /* Колір фону */
+    border-radius: 0 0 54px 54px; /* Закруглені нижні кути (ліві і праві) */
+    border: 0.5px solid black; /* Рамка навколо поля */
+    margin: 0 auto; /* Автоматичні відступи по горизонталі для центрування */
+}
+.container {
+    position: relative; /* Для позиціювання дочірніх елементів */
+    text-align: center; /* Центрування тексту */
+}
+.name {
+    position: absolute; /* Абсолютне позиціювання */
+    top: 15px; /* Відстань від верхньої частини контейнера */
+    left: 130px; /* Центрування по горизонталі */
+    font-family: 'Instrument Serif', sans-serif;
+    color:#D71111; /* Колір тексту */
+    font-size: 96px; /* Розмір шрифту */
+    
+}
+.inform {
+    position: absolute; /* Абсолютне позиціювання */
+    top: 140px; /* Відстань від верхньої частини контейнера */
+    left: 150px; /* Центрування по горизонталі */
+    color: #000000; /* Колір тексту */
+    font-size: 23px; /* Розмір шрифту */
+    max-width: 50%; /* Максимальна ширина для абзацу */
+}
+.info {
+    position: absolute; /* Абсолютне позиціювання */
+    top: 170px; /* Відстань від верхньої частини контейнера */
+    left: 150px; /* Центрування по горизонталі, можна видалити, якщо хочете ліве вирівнювання */
+    color: #000000; /* Колір тексту */
+    font-size: 23px; /* Розмір шрифту */
+    max-width: 18%; /* Максимальна ширина для абзацу */
+    text-align: left; /* Вирівнювання тексту по лівій стороні */
+    line-height: 1.5; /* Збільшення міжрядкового інтервалу (можна змінити значення) */
+}
 
+.cooperation{
+    position: absolute; /* Абсолютне позиціювання */
+    top: 30px; /* Відстань від верхньої частини контейнера */
+    left: 80%; /* Центрування по горизонталі */
+    font-family: 'Inria Serif', sans-serif;
+    color: #7b7777; /* Колір тексту */
+    font-size: 24px; /* Розмір шрифту */
+}
+.emily-photo{
+
+}
