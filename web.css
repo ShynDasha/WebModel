@@ -12,7 +12,8 @@ body {
     background-repeat: no-repeat; /* Зображення не повторюється */
     height: 100vh; /* Встановлює висоту на 100% від висоти вікна перегляду */
     margin: 0; /* Скидає відступи */
- 
+    cursor: url('cursor2.png'), auto;
+
 }
 
 header {
@@ -37,14 +38,14 @@ nav a {
     margin: 0 67px;
     text-decoration: none;
     color: black;
-    font-size: 25px; 
+    font-size: 20px; 
 }
 
 nav .active {
     background-color: #E18B9C; /* Колір фону */
     color: #000000; /* Чорний колір тексту */
     border: 2px solid #D71111; /* Колір та товщина контуру */
-    border-radius: 17px; /* Закруглені кути */
+    border-radius: 14px; /* Закруглені кути */
     padding: 4px 25px; /* Внутрішні відступи для створення простору навколо тексту */
     text-decoration: none; /* Видалення підкреслення для посилання */
 }
@@ -61,8 +62,8 @@ nav .active {
 }
 
 .custom-rectangle {
-    width: 1776px; /* Ширина прямокутника */
-    height: 362px; /* Висота прямокутника */
+    width: 1376px; /* Ширина прямокутника */
+    height: 290px; /* Висота прямокутника */
     background-color:#FDFAF5; /* Колір фону */
     border-radius: 0 0 54px 54px; /* Закруглені нижні кути (ліві і праві) */
     border: 0.5px solid black; /* Рамка навколо поля */
@@ -74,8 +75,8 @@ nav .active {
 }
 .name {
     position: absolute; /* Абсолютне позиціювання */
-    top: 15px; /* Відстань від верхньої частини контейнера */
-    left: 130px; /* Центрування по горизонталі */
+    top: 7px; /* Відстань від верхньої частини контейнера */
+    left: 110px; /* Центрування по горизонталі */
     font-family: 'Instrument Serif', sans-serif;
     color:#D71111; /* Колір тексту */
     font-size: 96px; /* Розмір шрифту */
@@ -83,31 +84,155 @@ nav .active {
 }
 .inform {
     position: absolute; /* Абсолютне позиціювання */
-    top: 140px; /* Відстань від верхньої частини контейнера */
-    left: 150px; /* Центрування по горизонталі */
+    top: 120px; /* Відстань від верхньої частини контейнера */
+    left: 130px; /* Центрування по горизонталі */
     color: #000000; /* Колір тексту */
-    font-size: 23px; /* Розмір шрифту */
+    font-size: 21px; /* Розмір шрифту */
     max-width: 50%; /* Максимальна ширина для абзацу */
 }
 .info {
     position: absolute; /* Абсолютне позиціювання */
-    top: 170px; /* Відстань від верхньої частини контейнера */
-    left: 150px; /* Центрування по горизонталі, можна видалити, якщо хочете ліве вирівнювання */
+    top: 150px; /* Відстань від верхньої частини контейнера */
+    left: 130px; /* Центрування по горизонталі, можна видалити, якщо хочете ліве вирівнювання */
     color: #000000; /* Колір тексту */
-    font-size: 23px; /* Розмір шрифту */
-    max-width: 18%; /* Максимальна ширина для абзацу */
+    font-size: 21px; /* Розмір шрифту */
+    max-width: 23%; /* Максимальна ширина для абзацу */
     text-align: left; /* Вирівнювання тексту по лівій стороні */
     line-height: 1.5; /* Збільшення міжрядкового інтервалу (можна змінити значення) */
 }
 
 .cooperation{
     position: absolute; /* Абсолютне позиціювання */
-    top: 30px; /* Відстань від верхньої частини контейнера */
-    left: 80%; /* Центрування по горизонталі */
+    top: 20px; /* Відстань від верхньої частини контейнера */
+    left: 75%; /* Центрування по горизонталі */
     font-family: 'Inria Serif', sans-serif;
     color: #7b7777; /* Колір тексту */
     font-size: 24px; /* Розмір шрифту */
 }
-.emily-photo{
+.emily-photo {
+    position: absolute;
+    top: 50%;  /* По вертикалі */
+    left: 50%; /* По горизонталі */
+    transform: translate(-50%, -30%); /* Вирівнювання по центру */
+    width: 492px; /* Ширина фото */
+    height: 587px; /* Висота фото */
+    border-radius: 43px; /* Закруглення кутів */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Додаємо тінь для ефекту */
+}
+.rectangle2 {
+    position: absolute;
+    bottom: 140px; /* Відступ від нижнього краю */
+    left: 80px;   /* Відступ від лівого краю */
+    width: 272px; /* Ширина прямокутника */
+    height: 314px;
+    background-color: #FDFAF5; /* Колір фону прямокутника */
+    border: 1px solid #000; /* Обведення прямокутника */
+    border-radius: 39px; /* Закруглені кути */
+    padding: 27px; /* Внутрішні відступи */
+}
 
+/* Стиль для заголовка */
+.preferences_title {
+    font-family: 'Inria Serif', sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 12px;
+    color: #000000;
+}
+
+/* Стиль для тексту */
+.text1 {
+    font-family: 'Inria Serif', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.5; /* Міжрядковий інтервал */
+    margin: 0;
+}
+
+.rectangle3 {
+    position: absolute;
+    bottom: 180px; /* Відступ від нижнього краю */
+    right: 80px;   /* Відступ від лівого краю */
+    width: 263px; /* Ширина прямокутника */
+    height: 225px;
+    background-color: #FDFAF5; /* Колір фону прямокутника */
+    border: 1px solid #000; /* Обведення прямокутника */
+    border-radius: 32px; /* Закруглені кути */
+    padding: 20px; /* Внутрішні відступи */
+}
+
+/* Стиль для заголовка */
+.work_title {
+    font-family: 'Inria Serif', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 8px;
+    color: #000000;
+}
+
+/* Стиль для тексту */
+.text2 {
+    font-family: 'Inria Serif', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    line-height: 1.3; /* Міжрядковий інтервал */
+    margin: 0;
+}
+
+.rectangle4 {
+    position: absolute;
+    bottom: 345px; /* Відступ від нижнього краю */
+    right: 360px;   /* Відступ від лівого краю */
+    width: 223px; /* Ширина прямокутника */
+    height: 113px;
+    background-color: #FDFAF5; /* Колір фону прямокутника */
+    border: 1px solid #000; /* Обведення прямокутника */
+    border-radius: 19px; /* Закруглені кути */
+    padding: 20px; /* Внутрішні відступи */
+}
+.partners_title {
+    font-family: 'Inria Serif', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000000;
+}
+
+/* Стиль для тексту */
+.text4 {
+    font-family: 'Inria Serif', sans-serif;
+    font-size: 12px;
+    color: #000000;
+    margin: 0;
+}
+.contact{
+    font-family: 'Bayon', sans-serif;
+    font-size: 40px;
+    position: absolute;
+    bottom: 51px; /* Відступ від нижнього краю */
+    left: 100px;   /* Відступ від лівого краю */
+    background-color: #E18B9C; /* Колір фону */
+    color: #ffffff; /* Чорний колір тексту */
+    border: 2px solid #D71111; /* Колір та товщина контуру */
+    border-radius: 19px; /* Закруглені кути */
+   
+    width: 305px; /* Ширина прямокутника */
+    height: 63px;
+    text-align: center; /* Горизонтальне вирівнювання */
+    line-height: 63px; /* Вертикальне вирівнювання (висота контейнера) */
+}
+.happy{
+    font-family: 'Dancing Script', sans-serif;
+    position: absolute; /* Абсолютне позиціювання */
+    bottom: 120px; 
+    right: 100px; /* Центрування по горизонталі */
+    color:#f64646; /* Колір тексту */
+    font-size: 32px; /* Розмір шрифту */
+}
+.marketer{
+    font-family: 'Instrument Serif', sans-serif;
+    position: absolute; /* Абсолютне позиціювання */
+    bottom: 7px; /* Відстань від верхньої частини контейнера */
+    right: 65px; /* Центрування по горизонталі */
+    color:#D71111; /* Колір тексту */
+    font-size: 96px; /* Розмір шрифту */
 }
