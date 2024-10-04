@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+body {
+    background-image: url('background2.jpg');
+    background-size: cover; /* Розтягує на весь екран */
+    background-position: center; /* Вирівнює по центру */
+    background-repeat: no-repeat; /* Зображення не повторюється */
+    height: 100vh; /* Встановлює висоту на 100% від висоти вікна перегляду */
+    margin: 0; /* Скидає відступи */
+ 
+}
+
+header {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FDFAF5;
+    padding: 25px 20px;
+    border: 0.5px solid black;
+}
+
+.logo img {
+    width: 75px; /* Ширина зображення */
+    height: auto; /* Автоматичне підлаштування висоти відповідно до ширини */
+    margin-left: 35px; 
+    margin-top: 5px;
+
+}
+
+nav a {
+    margin: 0 67px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px; 
+}
+
+nav .active {
+    background-color: #E18B9C; /* Колір фону */
+    color: #000000; /* Чорний колір тексту */
+    border: 2px solid #D71111; /* Колір та товщина контуру */
+    border-radius: 17px; /* Закруглені кути */
+    padding: 4px 25px; /* Внутрішні відступи для створення простору навколо тексту */
+    text-decoration: none; /* Видалення підкреслення для посилання */
+}
+
+.search input {
+    font-size: 15px;
+    width: 200px; /* Ширина */
+    height: 15px; /* Висота */
+    padding: 19px; /* Відступи всередині поля */
+    border-radius: 15px; /* Округлення кутів */
+    border: 0.5px solid black; /* Рамка навколо поля */
+    background-color: #FDFAF5;
+    margin-right: 30px; 
+
+}
+
+
