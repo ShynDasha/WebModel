@@ -86,7 +86,7 @@ nav .active {
 }
 .inform {
     position: absolute;
-    top: 120px; 
+    top: 110px; 
     left: 130px;
     color: #000000; 
     font-size: 21px; 
@@ -94,7 +94,7 @@ nav .active {
 }
 .info {
     position: absolute;
-    top: 150px; 
+    top: 140px; 
     left: 130px;
     color: #000000; 
     font-size: 21px; 
