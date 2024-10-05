@@ -201,8 +201,8 @@ nav .active {
 
 }
 .champagne {
-    position: absolute; /* Додаємо абсолютне позиціонування */
-    top: -25px; /* Відступ зверху для підняття елемента */
+    position: absolute; 
+    top: -25px;
     left: 20px;  
     width: auto;
     height: 165px;
@@ -289,14 +289,14 @@ nav .active {
     padding: 10px;
 } 
 .frame1_title, .frame2_title {
-    writing-mode: vertical-rl; /* Робимо текст вертикальним, знизу вгору */
-    text-align: center; /* Вирівнюємо текст по центру */
-    font-size: 16px; /* Розмір шрифту */
-    display: flex; /* Використовуємо flex для вирівнювання */
-    justify-content: center; /* Вирівнювання по горизонталі */
-    align-items: center; /* Вирівнювання по вертикалі */
+    writing-mode: vertical-rl; 
+    text-align: center; 
+    font-size: 16px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
     transform: rotate(180deg);
-    height: 100%; /* Щоб текст займав всю висоту контейнера */
+    height: 100%; 
 }
 .photo1{
     position: absolute;
