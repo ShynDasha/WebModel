@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "WebModel",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "../Documents/ОбробкаЗобр/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "WebModel"
+	}
+}
